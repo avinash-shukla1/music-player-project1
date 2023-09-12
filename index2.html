@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="music-player">
+            <div id="navbar">
+                <div><i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+            <div id="music-img">
+
+            </div>
+            <h1>unlock-me</h1>
+            <p>prazkhanal </p>
+            <audio id="song">
+                <source src="unlock-me-149058.mp3">
+            </audio>
+            <input value="0" id="range" type="range">
+            <div id="timer">
+                <p id="cTime">0:0</p>
+                <p id="time">00:30</p>
+            </div>
+            <div id="btn">
+                <div><i class="ri-skip-back-mini-fill"></i></div>
+                <div onclick="PlayPaused()">
+                    <i id="playicon" class="ri-play-circle-fill"></i>
+                </div>
+                <div><i class="ri-skip-right-fill"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
